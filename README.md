@@ -57,7 +57,6 @@ Below are a bunch of questions and indications of things to do. For each indicat
 
 ### Names of people you have worked with on this assignment
 * **Henny Tasker (hazita)**
-* Eminem (felis catus - homo honorarius)
 
 ## Questions & code instructions
 
@@ -145,7 +144,7 @@ function copyFunctioneh(){
 </div>
 ```
 
->I added an additional copyFunction with the same arguments but with a different query selector. I guessed that the name of query selectors can only be used once in an HTML document. I'm not sure what the innerHTML bit is, though.
+I added an additional copyFunction with the same arguments but with a different query selector. I guessed that the name of query selectors can only be used once in an HTML document. I'm not sure what the innerHTML bit is, though.
 
 * **In the original code, when you click the button that says `Wow`, you see a text box! Wow. Explain briefly in your own words why the following code causes that to happen:**
 
@@ -160,11 +159,11 @@ function handleClick(){
 <button onclick=handleClick() id="wow-button">Wow</button>
 ```
 
->First a function called 'handleClick' is set up such that, when called, it triggers an alert text box in the browser. The alert text box contents read, "hello".
+First a function called 'handleClick' is set up such that, when called, it triggers an alert text box in the browser. The alert text box contents read, "hello".
 
->Second, a button is defined with the id "wow-button" and an event listener is set such that when the user clicks the button, the function 'handleClick' is called.
+Second, a button is defined with the id "wow-button" and an event listener is set such that when the user clicks the button, the function 'handleClick' is called.
 
->Ultimately, when the user clicks the button called "Wow", an alert box pops up that says "hello".
+Ultimately, when the user clicks the button called "Wow", an alert box pops up that says "hello".
 
 * **Knowing what you learned from the previous question, add code/markup to the `jsPracticeLab.html` file *so that* there is a button with the text `Spring Equinox 2019` on it somewhere on the page, and when that button is clicked, a text box containing the text `March 20, 2019` appears. (There's no function -- that I am aware of -- to automatically get this info, you've got to type it yourself.)**
 
@@ -207,7 +206,7 @@ $(document).ready(function(){
     $("form").submit(function(event){
 ```
 
->I think the document refers to the HTML document in the web browser. When the document is loaded (even if not all items in the document are loaded - like videos, images, etc.), a function is called. The $ notation indicates that jQuery is being used here. Then, an event listener is added so that when the form is submitted, the function is called and something happens. (In this case, any form submission errors are highlighted in red and the user gets an error message.)
+I think the document refers to the HTML document in the web browser. When the document is loaded (even if not all items in the document are loaded - like videos, images, etc.), a function is called. The $ notation indicates that jQuery is being used here. Then, an event listener is added so that when the form is submitted, the function is called and something happens. (In this case, any form submission errors are highlighted in red and the user gets an error message.)
 
 * **Add some code to the `jquerylib_submit_example.html` file so that, if the input is valid and is specifically the text `hello`, rather than the visible output being `Nice!` in blue, the visible output should be `Hello to you too!`, also in blue, just like `Nice!` is.**
 	* *HINT:* You'll have to make some changes to the conditional statement, and possibly look up some JavaScript conditional syntax. You'll also need to look carefully at what generates visible output right now.
